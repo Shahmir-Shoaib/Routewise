@@ -1,0 +1,50 @@
+name: routewise
+description: A new Flutter project.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & State Management
+  provider: ^6.0.5
+
+  # Maps & Location
+  google_maps_flutter: ^2.14.2
+  geolocator: ^10.1.0
+
+  # Firebase (optional but recommended)
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.17.0
+  cloud_firestore: ^4.15.0
+
+  # Utilities
+  intl: ^0.19.0
+  http: ^1.6.0
+
+  # Charts (for cost comparison)
+  fl_chart: ^1.1.1
+  flutter_polyline_points: ^3.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+# Platform configuration for cross-platform support
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  windows:
+  web:
